@@ -18,7 +18,7 @@ function renderImportantProjects() {
             name: "T Flip Flop",
             tag: "HDL",
             image: "https://via.placeholder.com/300x180?text=Portfolio",
-            description: "A personal responsive portfolio website built with HTML, CSS, and JavaScript.",
+            description: "A T flip flop code in HDL simulated in Verilog.",
             github: "https://github.com/Zenin1/Hardware-Description-Language",
             video: "https://www.youtube.com/embed/ZH2OT8uI8LA" // Embed link
         },
@@ -50,7 +50,7 @@ function renderImportantProjects() {
             name: "JK Flip Flop",
             tag: "HDL",
             image: "https://via.placeholder.com/300x180?text=Networking",
-            description: "Real-time network traffic visualizer.",
+            description: "A JK flip flop code in HDL simulated in Verilog.",
             github: "https://github.com/Zenin1/Hardware-Description-Language",
             video: "https://www.youtube.com/embed/jBbMnLC7F04" // Embed link
         },
@@ -58,7 +58,7 @@ function renderImportantProjects() {
             name: "Shift Register",
             tag: "HDL",
             image: "https://via.placeholder.com/300x180?text=Chat+App",
-            description: "A real-time web chat app using WebSockets.",
+            description: "A shift Register but with a twist.",
             github: "https://github.com/Zenin1/Hardware-Description-Language",
             video: "https://www.youtube.com/embed/XnwxKlewEh8" // Embed link
         },
@@ -66,23 +66,23 @@ function renderImportantProjects() {
             name: "Network topology",
             tag: "NETWORKING",
             image: "https://via.placeholder.com/300x180?text=Sensor+Logger",
-            description: "Logs sensor data over serial to SD card.",
-            github: "https://github.com/yourusername/sensor-logger",
+            description: "Networking topology simulation.",
+            github: "https://github.com/Zenin1/Networking",
             video: "https://www.youtube.com/embed/xl3H4Hg84l4" // Embed link
         },
         {
             name: "UB Days simulation ",
             tag: "NETWORKING",
             image: "https://via.placeholder.com/300x180?text=Router+Sim",
-            description: "Software-defined networking simulator.",
-            github: "https://github.com/yourusername/router-emulator",
+            description: "An UB days attendance networking simulation.",
+            github: "https://github.com/Zenin1/Networking",
             video: "https://www.youtube.com/embed/L2_9CUAR5Xs" // Embed link
         },
         {
             name: "4-BIT counter",
             tag: "HDL",
             image: "https://via.placeholder.com/300x180?text=Dashboard",
-            description: "Modern desktop dashboard UI.",
+            description: "4 BIT counter with a twist",
             github: "https://github.com/Zenin1/Hardware-Description-Language",
             video: "https://www.youtube.com/embed/YOUR_VIDEO_ID" // Embed link
         }
