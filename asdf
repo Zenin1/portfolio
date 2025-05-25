@@ -1,0 +1,113 @@
+document.addEventListener("DOMContentLoaded", function () {
+//     const sections = [
+//         {
+//             id: "about",
+//             buttonIndex: 0,
+//             title: "About Me",
+//             content: `<h2>About Me</h2><p>Hello! I'm James España, a Computer Engineering student passionate about web development and technology. Welcome to my portfolio!</p>`
+//         },
+//         {
+//             id: "projects",
+//             buttonIndex: 1,
+//             title: "Projects",
+//             content: `
+//                 <div class="projects-grid">
+//                     <div class="project-box"></div>
+//                     <div class="project-box"></div>
+//                 </div>
+//             `
+//         },
+//         {
+//             id: "profile",
+//             buttonIndex: 2,
+//             title: "Profile",
+//             content: `<h2>Profile</h2><p>Email: jameshongayoespana@gmail.com<br>Location: Philippines</p>`
+//         },
+//         {
+//             id: "contact",
+//             buttonIndex: 3,
+//             title: "Contact",
+//             content: `<h2>Contact</h2><p>Feel free to reach out via email or connect with me on social media!</p>`
+//         }
+//     ];
+
+//     const container = document.querySelector('.container');
+//     while (container.firstChild) container.removeChild(container.firstChild);
+
+//     sections.forEach(sec => {
+//         const section = document.createElement('section');
+//         section.id = sec.id;
+//         section.style.display = "none";
+//         container.appendChild(section);
+//     });
+
+//     function setBodyLayout(index) {
+//         const body = document.body;
+//         const header = document.querySelector('header');
+//         const footer = document.querySelector('footer');
+//         body.style.display = "";
+//         body.style.flexDirection = "";
+//         body.style.alignItems = "";
+//         body.style.justifyContent = "";
+//         header.style.gridColumn = "";
+//         container.style.gridColumn = "";
+//         footer.style.gridColumn = "";
+//         }
+
+//     function showTab(index) {
+//         sections.forEach((sec, i) => {
+//             const section = document.getElementById(sec.id);
+//             if (section) {
+//                 section.innerHTML = (i === index) ? sec.content : "";
+//                 section.style.display = (i === index) ? "block" : "none";
+//             }
+//         });
+//         iconButtons.forEach((btn, i) => {
+//             if (i === index) {
+//                 btn.classList.add("active-tab");
+//                 btn.style.backgroundColor = "#333";
+//                 btn.style.transform = "scale(1.1)";
+//             } else {
+//                 btn.classList.remove("active-tab");
+//                 btn.style.backgroundColor = "#1f1f1f";
+//                 btn.style.transform = "scale(1)";
+//             }
+//         });
+//         setBodyLayout(index);
+//         if (index === 1) {
+//             injectProjectsGridStyles();
+//         }
+//     }
+
+//     function injectProjectsGridStyles() {
+//         if (document.getElementById('projects-grid-style')) return;
+//         const style = document.createElement('style');
+//         style.id = 'projects-grid-style';
+//         style.textContent = `
+//             .projects-grid {
+//                 display: grid;
+//                 grid-template-columns: 2fr 1fr;
+//                 gap: 20px;
+//                 height: 350px;
+//                 margin-top: 40px;
+//             }
+//             .project-box {
+//                 background: #333;
+//                 border: 3px solid #aaa;
+//                 border-radius: 12px;
+//                 height: 100%;
+//                 width: 100%;
+//                 box-sizing: border-box;
+//                 opacity: 0.25;
+//             }
+//         `;
+//         document.head.appendChild(style);
+//     }
+
+//     const iconButtons = Array.from(document.querySelectorAll('.icon-button'));
+//     iconButtons.forEach((btn, idx) => {
+//         btn.addEventListener('click', () => showTab(idx));
+//     });
+
+//     showTab(0);
+// });
