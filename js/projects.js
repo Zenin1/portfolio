@@ -60,7 +60,7 @@ function renderImportantProjects() {
             image: "https://via.placeholder.com/300x180?text=Chat+App",
             description: "A real-time web chat app using WebSockets.",
             github: "https://github.com/Zenin1/Hardware-Description-Language",
-            video: "https://www.youtube.com/embed/YOUR_VIDEO_ID" // Embed link
+            video: "https://www.youtube.com/embed/XnwxKlewEh8" // Embed link
         },
         {
             name: "Network topology",
@@ -68,7 +68,7 @@ function renderImportantProjects() {
             image: "https://via.placeholder.com/300x180?text=Sensor+Logger",
             description: "Logs sensor data over serial to SD card.",
             github: "https://github.com/yourusername/sensor-logger",
-            video: "https://www.youtube.com/embed/YOUR_VIDEO_ID" // Embed link
+            video: "https://www.youtube.com/embed/xl3H4Hg84l4" // Embed link
         },
         {
             name: "UB Days simulation ",
@@ -76,7 +76,7 @@ function renderImportantProjects() {
             image: "https://via.placeholder.com/300x180?text=Router+Sim",
             description: "Software-defined networking simulator.",
             github: "https://github.com/yourusername/router-emulator",
-            video: "https://www.youtube.com/embed/YOUR_VIDEO_ID" // Embed link
+            video: "https://www.youtube.com/embed/L2_9CUAR5Xs" // Embed link
         },
         {
             name: "4-BIT counter",
